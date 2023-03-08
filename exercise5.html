@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+  let x = parseFloat(prompt('input number fist: ',''))
+  let y = parseFloat(prompt('input number fist: ',''))
+  let z = parseFloat(prompt('input number fist: ',''))
+  function checkmax(a,b,c) {
+    let result='';
+
+    if (a<b && a<c) {
+      result= a + ' la so nho nhat';
+      return result;
+    } else if (b<c) {
+      result = b + ' la so nho nhat';
+      return result;
+
+    } else {
+      result = c + ' la so nho nhat';
+      return result;
+    }
+  }
+  document.write(checkmax(x,y,z));
+</script>
+</body>
+</html>

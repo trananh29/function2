@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>exercise9</title>
+</head>
+<body>
+<script>
+  let arr1= ['a','b','c','d']
+  let k='e';
+  function checkN(arr,key) {
+    count=0
+    for (let i=0;i<arr.length;i++) {
+      if (key==arr[i]) {
+        count++
+      }
+    }
+    if (count==0) {
+      return -1;
+    } return count;
+  }
+  console.log(checkN(arr1,k))
+</script>
+</body>
+</html>
